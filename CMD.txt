@@ -38,7 +38,7 @@ chmod 777 &lt;file-name&gt;
 2-Write 
 1-Execute 
  
-	--- history 
+--- history 
  
 --- pwd 
  
