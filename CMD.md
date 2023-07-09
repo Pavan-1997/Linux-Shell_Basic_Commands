@@ -4,7 +4,7 @@
  
 - ls -ltr
   
- (Lists the files with dates)
+  (Lists the files with dates)
  
 -  man ls
 
