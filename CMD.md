@@ -104,38 +104,48 @@ chmod 777 &lt;file-name&gt;
 
     ps -ef | grep amazon | awk -F " " '{print $2}' 
 
-- Execute the above using chmod 777 &lt;file-name&gt; 
+    - Execute the above using chmod 777 &lt;file-name&gt; 
  
 - date 
  
-- date | echo "today is" 
+- date | echo "today is"
+  
   (date is the default shell command and sends output to stdin , the output of the above is today is)
  
 - awk 
+
   (Gives specific columns from the output whereas grep gives entire line)
  
 - ps -ef | grep amazon | awk -F " " ' {print $2}' 
+
   (Gives output of the second column which has amazon in it)
  
 - grep name test 
+
   (Gives the output of the line which contains the name in it in the test file)
  
 - grep name test | awk -F " " '{print$3)' 
+
   (Gives output of the third column which has name in it)
  
 - logfile  
+
   (Check errors in logfile when app is failing)
  
 - curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error 
+
   (Retrieves information from the above URL, and gives only the error output)
  
 - wget &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log 
+
   (Using the above we can't view the info but downloads the file)  
  
 - sudo su -  
+
   (Switch to the root user)
  
 - sudo find / -name pam 
+
   (Find the location of pam file in the entire system) 
  
 - if [expression] 
@@ -158,10 +168,13 @@ chmod 777 &lt;file-name&gt;
 - for i in {1.100}; do echo $1; done 
  
 - trap "echo don’t use the Ctrl+c" SIGINT^C 
+
   (Trapping signals, even when if they send a Ctrl + C signal then don’t do anything to send a notification)
  
 - trap "rm -rf *" SIGINT^C 
+
   (Delete everything from the database when hitting Ctrl + C)
  
 - kill -9 1111 
+
   (Pass a kill signal to Linux to terminate 1111 process Id)
