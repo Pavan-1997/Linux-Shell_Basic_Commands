@@ -62,7 +62,7 @@
   
 - ps -ef 
 
- (Entire details of the process in full format)  
+  (Entire details of the process in full format)  
   
 - ps -ef | grep "amazon"  
   
@@ -96,7 +96,7 @@
 
     set -o pipefail 
      
-    The above three set commands can be combined into set -exo pipeline, which is not recommended  
+    ** The above three set commands can be combined into set -exo pipeline, which is not recommended  
 
     df -h 
 
