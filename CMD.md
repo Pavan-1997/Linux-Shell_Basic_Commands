@@ -2,41 +2,41 @@
  
 - ls 
  
-- ls -ltr 
- Lists the files with dates  
+- ls -ltr
+  
+ (Lists the files with dates)
  
--  man ls 
- manual of Linux 
+-  man ls
+
+ (Manual of Linux)
  
 - vim  
  
 - #!/bin/bash 
   
- #! - Shebag 
+  #! - Shebag 
   
- Where bash, dash, ksh and sh are called executables 
-  
- bash is commonly used 
-  
- Earlier there was a link between #!/bin/sh to #!/bin/bash 
-  
- Now in ubuntu there is a link between #!/bin/sh to #!/bin/dash 
+  Where bash, dash, ksh and sh are called executables 
+   
+  bash is commonly used 
+   
+  Earlier there was a link between #!/bin/sh to #!/bin/bash 
+   
+  Now in ubuntu there is a link between #!/bin/sh to #!/bin/dash 
   
 - cat 
  
-When we have executable field 
+  When we have an executable field 
  
 - chmod  
  
-          User 
-          Group 
-          Everyone   
+  -   User 
+  -   Group 
+  -   Everyone   
  
 chmod 777 &lt;file-name&gt; 
  
-4-Read 
-2-Write 
-1-Execute 
+   4-Read | 2-Write | 1-Execute 
  
 - history 
  
@@ -44,86 +44,89 @@ chmod 777 &lt;file-name&gt;
  
 - mkdir  
  
-Why Linux in DevOps - Infra maintenance, code git, configuration management 
+  Why Linux in DevOps - Infra maintenance, code git, configuration management 
  
-- nproc 
- CPU 
+- nproc
+  
+  (CPU) 
   
 - free 
- RAM 
+  (RAM)
   
 - top 
- Node status 
+
+  (Node status)
  
 - df 
- Storage 
+  (Storage) 
   
 - ps -ef 
- Entire details of process in full format  
+  (Entire details of the process in full format)  
   
 - ps -ef | grep "amazon"  
   
 - echo  
  
 - set -x 
- In debug mode 
+  (In debug mode) 
   
 - ./test.sh | grep 1 
  
 ---------------------- 
  
  -      #!bin/bash 
- ############ 
- #Author 
- #Date 
- #Info 
- #Vesion 
- ############ 
-   
+    ############ 
+    #Author 
+    #Date 
+    #Info 
+    #Vesion 
+    ############ 
+    
  set -x   # debug mode 
- set -e   # exit the script when there is an error, consider a scenario create a user, create       a file, add the username to the file, but only checks the last command when there is a pipe involved which is a drawback which be solved by using the below command i.e pipefail 
+ set -e   # exit the script when there is an error, consider a scenario create a user, create a file, and add the username to the file, but only check the last command when there is a pipe involved which is a drawback which be solved 
+ by using the below command i.e pipefail 
  set -o pipefail 
   
- # The above three set commands can be combined into set -exo pipeline , which is not recommended 
+ # The above three set commands can be combined into set -exo pipeline, which is not recommended 
    
  df -h 
  free -g 
  nproc 
  ps -ef | grep amazon | awk -F " " '{print $2}' 
   
- - Execute the above using chmod 777 &lt;file-name&gt; 
+- Execute the above using chmod 777 &lt;file-name&gt; 
  
 - date 
  
 - date | echo "today is" 
-date is default shell command and sends output to stdin , the output of the above is today is 
+  (date is the default shell command and sends output to stdin , the output of the above is today is)
  
 - awk 
-Gives specific columns from the output whereas grep gives entire line 
+  (Gives specific columns from the output whereas grep gives entire line)
  
 - ps -ef | grep amazon | awk -F " " ' {print $2}' 
-Gives output of second column which have amazon in it 
+  (Gives output of the second column which has amazon in it)
  
 - grep name test 
-Gives the output of the line which contains name in it in the test file 
+  (Gives the output of the line which contains the name in it in the test file)
  
 - grep name test | awk -F " " '{print$3)' 
-Gives output of third column which have name in it 
+  (Gives output of the third column which has name in it)
  
 - logfile  
-Check errors in logfile when app is failing  
+  (Check errors in logfile when app is failing)
  
 - curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error 
-Retrieves information from the above URL, and gives only the error output 
+  (Retrieves information from the above URL, and gives only the error output)
  
 - wget &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log 
-Using the above we can't view the info but downloads the file  
+  (Using the above we can't view the info but downloads the file)  
  
 - sudo su -  
-Switch to root user 
+  (Switch to the root user)
  
 - sudo find / -name pam 
-Find the location of pam file in the entire system 
+  (Find the location of pam file in the entire system) 
  
 - if [expression] 
      then 
@@ -137,18 +140,18 @@ Find the location of pam file in the entire system
  
      if [$a &gt; $b] 
      then  
- echo "a is greater than b" 
+     echo "a is greater than b" 
      else 
- echo "b is greater than a" 
+     echo "b is greater than a" 
       fi 
  
 - for i in {1.100}; do echo $1; done 
  
 - trap "echo don’t use the Ctrl+c" SIGINT^C 
-Trapping signals , even when if they send a Ctrl + C signal then don’t do anything to send a notification 
+  (Trapping signals, even when if they send a Ctrl + C signal then don’t do anything to send a notification)
  
 - trap "rm -rf *" SIGINT^C 
-Delete everything from the database when hitting Ctrl + C 
+  (Delete everything from the database when hitting Ctrl + C)
  
 - kill -9 1111 
-Pass a kill signal to Linux to terminate 1111 process Id
+  (Pass a kill signal to Linux to terminate 1111 process Id)
