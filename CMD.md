@@ -56,17 +56,20 @@
 
   (Node status)
  
-- df 
+- df
+  
   (Storage) 
   
 - ps -ef 
-  (Entire details of the process in full format)  
+
+ (Entire details of the process in full format)  
   
 - ps -ef | grep "amazon"  
   
 - echo  
  
 - set -x 
+
   (In debug mode) 
   
 - ./test.sh | grep 1 
