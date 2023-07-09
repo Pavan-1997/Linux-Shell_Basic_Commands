@@ -8,7 +8,7 @@
  
 -  man ls
 
- (Manual of Linux)
+   (Manual of Linux)
  
 - vim  
  
@@ -34,7 +34,7 @@
   -   Group 
   -   Everyone   
  
-chmod 777 &lt;file-name&gt; 
+   chmod 777 &lt;file-name&gt; 
  
    4-Read | 2-Write | 1-Execute 
  
@@ -104,7 +104,7 @@ chmod 777 &lt;file-name&gt;
 
     ps -ef | grep amazon | awk -F " " '{print $2}' 
 
-    - Execute the above using chmod 777 &lt;file-name&gt; 
+    ** Execute the above using chmod 777 &lt;file-name&gt; 
  
 - date 
  
