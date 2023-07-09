@@ -25,9 +25,7 @@
   Now in ubuntu there is a link between #!/bin/sh to #!/bin/dash 
   
 - cat 
- 
-  When we have an executable field 
- 
+  
 - chmod  
  
   -   User 
