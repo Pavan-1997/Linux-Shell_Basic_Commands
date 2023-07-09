@@ -42,7 +42,7 @@
  
 - mkdir  
  
-  Why Linux in DevOps - Infra maintenance, code git, configuration management 
+  ** Why Linux in DevOps - Infra maintenance, code git, configuration management 
  
 - nproc
   
