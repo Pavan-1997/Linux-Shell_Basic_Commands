@@ -72,28 +72,38 @@ chmod 777 &lt;file-name&gt;
   
 - ./test.sh | grep 1 
  
----------------------- 
  
- -      #!bin/bash 
-    ############ 
+-  #!bin/bash 
+
+   ############ 
+
     #Author 
+
     #Date 
+
     #Info 
+
     #Vesion 
+
     ############ 
-    
- set -x   # debug mode 
- set -e   # exit the script when there is an error, consider a scenario create a user, create a file, and add the username to the file, but only check the last command when there is a pipe involved which is a drawback which be solved 
- by using the below command i.e pipefail 
- set -o pipefail 
-  
- # The above three set commands can be combined into set -exo pipeline, which is not recommended 
-   
- df -h 
- free -g 
- nproc 
- ps -ef | grep amazon | awk -F " " '{print $2}' 
-  
+
+    set -x   # debug mode 
+
+    set -e   # exit the script when there is an error, consider a scenario create a user, create a file, and add the username to the file, but only check the last command when there is a pipe involved which is a drawback which be solved 
+    by using the below command i.e pipefail 
+
+    set -o pipefail 
+     
+    The above three set commands can be combined into set -exo pipeline, which is not recommended  
+
+    df -h 
+
+    free -g 
+
+    nproc 
+
+    ps -ef | grep amazon | awk -F " " '{print $2}' 
+
 - Execute the above using chmod 777 &lt;file-name&gt; 
  
 - date 
