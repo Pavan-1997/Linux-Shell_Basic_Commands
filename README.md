@@ -44,23 +44,23 @@
  
 - `history`
  
-- pwd 
+- `pwd` 
  
-- mkdir  
+- `mkdir`  
   
-- nproc
+- `nproc`
   
   (CPU) 
   
-- free 
+- `free` 
 
   (RAM)
   
-- top 
+- `top` 
 
   (Node status)
  
-- df
+- `df`
   
   (Storage) 
   
