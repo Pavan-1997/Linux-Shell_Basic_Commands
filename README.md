@@ -30,9 +30,9 @@
    
   Now in ubuntu there is a link between #!/bin/sh to #!/bin/dash 
   
-- cat 
+- `cat` 
   
-- chmod  
+- `chmod` 
  
   -   User 
   -   Group 
