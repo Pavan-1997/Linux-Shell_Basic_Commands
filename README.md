@@ -38,11 +38,11 @@
   -   Group 
   -   Everyone   
  
-   `chmod 777 &lt;file-name&gt;`
+   `chmod 777 <file-name>`
  
    4-Read | 2-Write | 1-Execute 
  
-- history 
+- `history`
  
 - pwd 
  
