@@ -140,39 +140,41 @@
 
   (Check errors in logfile when app is failing)
  
-- curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error 
+- `curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error` 
 
   (Retrieves information from the above URL, and gives only the error output)
  
-- wget &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log 
+- `wget &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log` 
 
   (Using the above we can't view the info but downloads the file)  
  
-- sudo su -  
+- `sudo su -`  
 
   (Switch to the root user)
  
-- sudo find / -name pam 
+- `sudo find / -name pam` 
 
   (Find the location of pam file in the entire system) 
  
-- if [expression] 
+ ```
+ if [expression] 
      then 
   &lt;condtions&gt; 
       else 
   &lt;condition&gt; 
       fi 
+ ```
+```
+   a=4 
+   b=10 
  
-- a=4 
-     b=10 
- 
-     if [$a &gt; $b] 
-     then  
-     echo "a is greater than b" 
-     else 
-     echo "b is greater than a" 
-      fi 
- 
+   if [$a &gt; $b] 
+   then  
+    echo "a is greater than b" 
+   else 
+    echo "b is greater than a" 
+   fi 
+``` 
 - for i in {1.100}; do echo $1; done 
  
 - trap "echo don’t use the Ctrl+c" SIGINT^C 
