@@ -64,19 +64,19 @@
   
   (Storage) 
   
-- ps -ef 
+- `ps -ef` 
 
   (Entire details of the process in full format)  
   
-- ps -ef | grep "amazon"  
+- `ps -ef | grep "amazon"`  
   
-- echo  
+- `echo`  
  
-- set -x 
+- `set -x` 
 
   (In debug mode) 
   
-- ./test.sh | grep 1 
+- `./test.sh | grep 1` 
  
  
 -  #!bin/bash 
