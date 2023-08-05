@@ -79,7 +79,8 @@
 - `./test.sh | grep 1` 
  
  
--  #!bin/bash 
+```
+   #!bin/bash 
 
    ############ 
 
@@ -101,16 +102,17 @@
     set -o pipefail 
      
     ** The above three set commands can be combined into set -exo pipeline, which is not recommended  
+```
+    
+-  `df -h`
+  
+-  `free -g` 
 
-    df -h 
+-  `nproc` 
 
-    free -g 
-
-    nproc 
-
-    ps -ef | grep amazon | awk -F " " '{print $2}' 
-
-    ** Execute the above using chmod 777 &lt;file-name&gt; 
+-  `ps -ef | grep amazon | awk -F " " '{print $2}'`
+    
+    - Execute the above using chmod 777 &lt;file-name&gt; 
  
 - date 
  
