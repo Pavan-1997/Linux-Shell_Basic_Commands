@@ -175,16 +175,16 @@
     echo "b is greater than a" 
    fi 
 ``` 
-- for i in {1.100}; do echo $1; done 
+- `for i in {1.100}; do echo $1; done`
  
-- trap "echo don’t use the Ctrl+c" SIGINT^C 
+- `trap "echo don’t use the Ctrl+c" SIGINT^C` 
 
   (Trapping signals, even when if they send a Ctrl + C signal then don’t do anything to send a notification)
  
-- trap "rm -rf *" SIGINT^C 
+- `trap "rm -rf *" SIGINT^C` 
 
   (Delete everything from the database when hitting Ctrl + C)
  
-- kill -9 1111 
+- `kill -9 1111` 
 
   (Pass a kill signal to Linux to terminate 1111 process Id)
