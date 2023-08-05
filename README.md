@@ -4,11 +4,11 @@
 
 ---
 
-- touch 
+- `touch `
  
-- ls 
+- `ls` 
  
-- ls -ltr
+- `ls -ltr`
   
   (Lists the files with dates)
  
