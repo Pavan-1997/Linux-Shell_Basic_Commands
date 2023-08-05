@@ -12,7 +12,7 @@
   
   (Lists the files with dates)
  
--  man ls
+-  `man ls`
 
    (Manual of Linux)
  
