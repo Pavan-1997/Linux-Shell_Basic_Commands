@@ -114,29 +114,29 @@
     
     - Execute the above using chmod 777 &lt;file-name&gt; 
  
-- date 
+- `date` 
  
-- date | echo "today is"
+- `date | echo "today is"`
   
   (date is the default shell command and sends output to stdin , the output of the above is today is)
  
-- awk 
+- `awk` 
 
   (Gives specific columns from the output whereas grep gives entire line)
  
-- ps -ef | grep amazon | awk -F " " ' {print $2}' 
+- `ps -ef | grep amazon | awk -F " " ' {print $2}'` 
 
   (Gives output of the second column which has amazon in it)
  
-- grep name test 
+- `grep name test` 
 
   (Gives the output of the line which contains the name in it in the test file)
  
-- grep name test | awk -F " " '{print$3)' 
+- `grep name test | awk -F " " '{print$3)'` 
 
   (Gives output of the third column which has name in it)
  
-- logfile  
+- `logfile`  
 
   (Check errors in logfile when app is failing)
  
