@@ -16,9 +16,9 @@
 
    (Manual of Linux)
  
-- vim  
+- `vim`
  
-- #!/bin/bash 
+- `#!/bin/bash`
   
   #! - Shebag 
   
