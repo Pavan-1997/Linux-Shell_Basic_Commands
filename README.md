@@ -5,6 +5,7 @@
 ---
 
 - `touch `
+  (Mostly used in Automations)
  
 - `ls` 
  
