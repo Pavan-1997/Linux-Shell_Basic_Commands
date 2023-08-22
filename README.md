@@ -171,18 +171,16 @@
 - `wget https://github.com/Pavan-1997/Linux-Shell_Basics_Commands/blob/main/dummylog01122022.log`
 
   (Download files from the internet using various protocols, such as HTTP, HTTPS, and FTP or Using the above we can't view the info but downloads the file)  
- 
 
-- `find`
-
-  ()
+   
 - `sudo su -`  
 
   (Switch to the root user)
- 
-- `sudo find / -name pam` 
 
-  (Find the location of pam file in the entire system) 
+ 
+- `sudo find / -name pavan`
+
+   (searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
  
  ```
  if [expression] 
