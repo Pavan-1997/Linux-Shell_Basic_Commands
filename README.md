@@ -143,7 +143,7 @@
   (See the below command for example)
 
 
-- date | echo "test"
+- `date | echo "test"`
 
   (The command "date | echo "test"" will just output "test" without including the output of the "date" command)
  
