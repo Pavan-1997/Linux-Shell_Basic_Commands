@@ -183,7 +183,7 @@
    (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
 
  ---
- ## Loops:
+ ## Loops
  
  ```
  if [expression] 
