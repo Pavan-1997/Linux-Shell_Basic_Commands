@@ -184,20 +184,7 @@
 
  ---
  ## Loops
- 
- 
-if [expression] 
-
-then 
-
-  Statements  
-
-else 
-
-  Statements  
-
-fi 
- 
+  
 ```
 a=4 
 b=10 
