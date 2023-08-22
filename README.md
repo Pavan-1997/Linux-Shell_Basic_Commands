@@ -44,6 +44,16 @@
   Now in ubuntu there is a soft link between #!/bin/sh to #!/bin/dash 
   ```
 
+
+  - echo "Test"
+  
+    (Print message)
+
+
+ -  sh script.sh or ./script.sh
+
+    (To execute the script shell file)
+
   
 - `cat` 
   
