@@ -45,12 +45,12 @@
   ```
 
 
-  - echo "Test"
+  - `echo "Test"`
   
     (Print message)
 
 
- -  sh script.sh or ./script.sh
+ -  `sh script.sh` or `./script.sh`
 
     (To execute the script shell file)
 
