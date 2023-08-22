@@ -132,8 +132,11 @@
 - `set -x` 
 
   (In debug mode) 
-  
-- `./test.sh | grep 1` 
+
+
+- `date`
+
+  (Displays the current date and time)
  
  
 ```
