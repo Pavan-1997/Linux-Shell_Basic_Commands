@@ -9,8 +9,10 @@
 # Vesion: v1 
 ######################## 
 
-set -x   # debug mode 
-
+set -x   # Debug mode 
+set -e   # Exit the script when there is an error but when a pipe is involved it checks the authenticity of only the last command the pipeline
+set -o pipefail # Enables pipeline failure checking, causing the pipeline to fail if any command within it fails
+# set -exo pipefail # We can use the above three in a single command
 
 echo "Disk space"
 

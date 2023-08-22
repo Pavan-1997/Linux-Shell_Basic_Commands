@@ -129,6 +129,11 @@
   (Lists processes containing the string "amazon" using the "grep" command to filter the output)
 
 
+- `awk` 
+
+  (It is a versatile text-processing tool used in Linux for extracting and manipulating data in structured text files)
+
+
 - `ps -ef | grep "amazon" | awk -F" " '{print $2}'`
 
   (Extracts the second column (process IDs) of processes containing "amazon" using the "awk" command after filtering with "grep.")
@@ -152,70 +157,6 @@
 
   (The command "date | echo "test"" will just output "test" without including the output of the "date" command)
 
-
-- `ps -ef
- 
- 
-```
-   #!bin/bash 
-
-   ############ 
-
-    #Author 
-
-    #Date 
-
-    #Info 
-
-    #Vesion 
-
-    ############ 
-
-    set -x   # debug mode 
-
-    set -e   # exit the script when there is an error, consider a scenario create a user, create a file, and add the username to the file, but only check the last command when there is a pipe involved which is a drawback which be solved 
-    by using the below command i.e pipefail 
-
-    set -o pipefail 
-     
-    ** The above three set commands can be combined into set -exo pipeline, which is not recommended  
-```
-    
--  `df -h`
-  
--  `free -g` 
-
--  `nproc` 
-
--  `ps -ef | grep amazon | awk -F " " '{print $2}'`
-    
-    - Execute the above using chmod 777 &lt;file-name&gt; 
- 
-- `date` 
- 
-- `date | echo "today is"`
-  
-  (date is the default shell command and sends output to stdin , the output of the above is today is)
- 
-- `awk` 
-
-  (Gives specific columns from the output whereas grep gives entire line)
- 
-- `ps -ef | grep amazon | awk -F " " ' {print $2}'` 
-
-  (Gives output of the second column which has amazon in it)
- 
-- `grep name test` 
-
-  (Gives the output of the line which contains the name in it in the test file)
- 
-- `grep name test | awk -F " " '{print$3)'` 
-
-  (Gives output of the third column which has name in it)
- 
-- `logfile`  
-
-  (Check errors in logfile when app is failing)
  
 - `curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error` 
 
