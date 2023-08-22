@@ -16,7 +16,7 @@
  
 - `ls -ltr`
   
-  (Lists the files with dates)
+  (Lists the files with dates or lists files in long format sorted by time, with the latest files at the bottom)
 
  
 -  `man ls`
@@ -76,10 +76,22 @@
    `chmod 777 <file-name>`
  
    4-Read | 2-Write | 1-Execute 
-```  
+```
+
+
 - `history`
+
+  (Shows a list of previously executed commands in the terminal)
+
  
-- `pwd` 
+- `pwd`
+
+  (Displays the current working directory (path))
+
+
+- `cd`
+
+  (Change the current working directory)
  
 - `mkdir`  
   
