@@ -5,22 +5,29 @@
 ---
 
 - `touch `
+  
   (Mostly used in Automations)
+
  
-- `ls` 
+- `ls`
+  (List files) 
+
  
 - `ls -ltr`
   
   (Lists the files with dates)
+
  
 -  `man ls`
 
    (Manual of Linux)
+
  
 - `vim`
   
   `vi`
   (By default available)
+
  
 - `#!/bin/bash`
   
