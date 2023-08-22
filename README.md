@@ -6,12 +6,12 @@
 
 - `touch `
   
-  (Mostly used in Automations)
+  (Create empty files or update file timestamps.Mostly used in Automations)
 
  
 - `ls`
   
-  (List files) 
+  (List files or List directory contents)
 
  
 - `ls -ltr`
@@ -21,14 +21,16 @@
  
 -  `man ls`
 
-   (Manual of Linux)
+   (Manual for Linux)
 
  
 - `vim`
   
+  (Command-line text editor in Linux used for editing files)
+  
   `vi`
   
-  (By default available in Linux)
+  (Editing files, By default available in Linux)
 
  
 - `#!/bin/bash`
@@ -47,7 +49,7 @@
 
 - `echo "Test"`
   
-    (Print message)
+    (Print message or display text or variables in the terminal)
 
 
 -  `sh script.sh` or `./script.sh`
@@ -55,11 +57,14 @@
     (To execute the script shell file)
 
   
-- `cat` 
+- `cat`
+
+  (Display the contents of a file in the terminal)
+
   
 - `chmod`
   
-  (ch- change)
+  (ch- change, Change file permissions)
   
   ![image](https://github.com/Pavan-1997/Linux-Shell_Basics_Commands/assets/32020205/33fa84e9-1b21-4b31-b640-c41f566d7fc5)
 
