@@ -139,6 +139,13 @@
   (Displays the current date and time)
 
   (Date sends the output to stdin, hence using `|` doesn't re-direct the output of first command to the second command)
+
+  (See the below command for example)
+
+
+- date | echo "test"
+
+  (The command "date | echo "test"" will just output "test" without including the output of the "date" command)
  
  
 ```
