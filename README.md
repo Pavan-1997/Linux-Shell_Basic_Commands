@@ -183,7 +183,7 @@
    (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
 
  ---
- ## Loops
+ ### Loops:
   
 ```
 a=4 
@@ -203,7 +203,7 @@ for i in {1.100}; do echo $1; done
 ```
 
 ---
-## Trap & Kill
+### Trap & Kill:
 
 - `trap "echo don’t use the Ctrl+c" SIGINT` 
 
