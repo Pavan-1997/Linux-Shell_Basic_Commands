@@ -137,6 +137,8 @@
 - `date`
 
   (Displays the current date and time)
+
+  (Date sends the output to stdin, hence using `|` doesn't re-direct the output of first command to the second command)
  
  
 ```
