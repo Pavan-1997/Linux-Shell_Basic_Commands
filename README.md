@@ -128,6 +128,11 @@
 
   (Lists processes containing the string "amazon" using the "grep" command to filter the output)
 
+
+- `ps -ef | grep "amazon" | awk -F" " '{print $2}'`
+
+  (Extracts the second column (process IDs) of processes containing "amazon" using the "awk" command after filtering with "grep.")
+
  
 - `set -x` 
 
@@ -146,6 +151,9 @@
 - `date | echo "test"`
 
   (The command "date | echo "test"" will just output "test" without including the output of the "date" command)
+
+
+- `ps -ef
  
  
 ```
