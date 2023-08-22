@@ -213,11 +213,11 @@ for i in {1.100}; do echo $1; done
 ---
 ## Trap & Kill
 
-- `trap "echo don’t use the Ctrl+c" SIGINT^C` 
+- `trap "echo don’t use the Ctrl+c" SIGINT` 
 
-  (Trapping signals, even when if they send a Ctrl + C signal then don’t do anything to send a notification)
+  (Trapping signals, even when if they send a Ctrl + C signal they get the above echo message)
  
-- `trap "rm -rf *" SIGINT^C` 
+- `trap "rm -rf *" SIGINT` 
 
   (Delete everything from the database when hitting Ctrl + C)
  
