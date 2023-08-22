@@ -26,11 +26,12 @@
 - `vim`
   
   `vi`
-  (By default available)
+  
+  (By default available in Linux)
 
  
 - `#!/bin/bash`
-  
+  ```
   #! - Shebag 
   
   Where bash, dash, ksh and sh are called executables 
@@ -40,6 +41,8 @@
   Earlier there was a soft link between #!/bin/sh to #!/bin/bash 
    
   Now in ubuntu there is a soft link between #!/bin/sh to #!/bin/dash 
+  ```
+
   
 - `cat` 
   
