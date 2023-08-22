@@ -92,32 +92,42 @@
 - `cd`
 
   (Change the current working directory)
+
  
-- `mkdir`  
+- `mkdir`
+
+  (Create a new directory
+
   
 - `nproc`
   
-  (CPU) 
+  (Displays the number of available processing units (CPU cores)) 
+
   
 - `free` 
 
-  (RAM)
+  (Shows the system's memory usage and available memory)
+
   
 - `top` 
 
-  (Node status)
+  (Provides real-time system monitoring, displaying information about processes and system usage)
+
  
 - `df`
   
-  (Storage) 
+  (Displays information about disk space usage on file systems) 
+
   
 - `ps -ef` 
 
-  (Entire details of the process in full format)  
+  (Lists all running processes in full format in Linux)  
+
   
 - `ps -ef | grep "amazon"`  
-  
-- `echo`  
+
+  (Lists processes containing the string "amazon" using the "grep" command to filter the output)
+
  
 - `set -x` 
 
