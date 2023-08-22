@@ -185,14 +185,14 @@
  ---
  ## Loops
  
- ```
- if [expression] 
- then 
+ 
+if [expression] 
+then 
      ***  
- else 
+else 
      *** 
- fi 
- ```
+fi 
+ 
 ```
 a=4 
 b=10 
