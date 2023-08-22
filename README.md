@@ -180,29 +180,37 @@
  
 - `sudo find / -name pavan`
 
-   (searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
+   (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
+
+ ---
+ ## Loops:
  
  ```
  if [expression] 
-     then 
-  &lt;condtions&gt; 
-      else 
-  &lt;condition&gt; 
-      fi 
+ then 
+     ***  
+ else 
+     *** 
+ fi 
  ```
 ```
-   a=4 
-   b=10 
+a=4 
+b=10 
  
-   if [$a &gt; $b] 
-   then  
+if [$a > $b] 
+then  
     echo "a is greater than b" 
-   else 
+else 
     echo "b is greater than a" 
-   fi 
-``` 
-- `for i in {1.100}; do echo $1; done`
- 
+fi 
+```
+
+
+```
+for i in {1.100}; do echo $1; done
+```
+
+
 - `trap "echo don’t use the Ctrl+c" SIGINT^C` 
 
   (Trapping signals, even when if they send a Ctrl + C signal then don’t do anything to send a notification)
