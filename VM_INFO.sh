@@ -25,3 +25,5 @@ free -g
 echo "CPU"
 
 nproc
+
+ps -ef | grep "amazon" | awk -F" " '{print $2}'
