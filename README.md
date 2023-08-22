@@ -190,11 +190,11 @@ if [expression]
 
 then 
 
-  ***  
+  <Statements>  
 
 else 
 
-  *** 
+  <Statements>  
 
 fi 
  
