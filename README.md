@@ -157,15 +157,25 @@
 
   (The command "date | echo "test"" will just output "test" without including the output of the "date" command)
 
- 
-- `curl &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log | grep error` 
 
-  (Retrieves information from the above URL, and gives only the error output)
- 
-- `wget &lt;https://&lt;logfile-location-URL&gt;/&lt;&gt;.log` 
+- `curl -x GET api.foo.com`
 
-  (Using the above we can't view the info but downloads the file)  
+  (Gives output of info provided by API of foo.com)
  
+
+- `curl https://github.com/Pavan-1997/Linux-Shell_Basics_Commands/blob/main/dummylog01122022.log | grep ERROR` 
+
+  (Transfers data to or from a server using various protocols, including HTTP, HTTPS, FTP or Retrieves information from the above URL, and gives only the ERROR logs)
+ 
+
+- `wget https://github.com/Pavan-1997/Linux-Shell_Basics_Commands/blob/main/dummylog01122022.log`
+
+  (Download files from the internet using various protocols, such as HTTP, HTTPS, and FTP or Using the above we can't view the info but downloads the file)  
+ 
+
+- `find`
+
+  ()
 - `sudo su -`  
 
   (Switch to the root user)
