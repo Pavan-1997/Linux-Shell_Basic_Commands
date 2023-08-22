@@ -57,16 +57,21 @@
   
 - `cat` 
   
-- `chmod` 
- 
-  -   User 
+- `chmod`
+  
+  (ch- change)
+  
+  ![image](https://github.com/Pavan-1997/Linux-Shell_Basics_Commands/assets/32020205/33fa84e9-1b21-4b31-b640-c41f566d7fc5)
+
+```  
+  -   User
   -   Group 
-  -   Everyone   
+  -   Other   
  
    `chmod 777 <file-name>`
  
    4-Read | 2-Write | 1-Execute 
- 
+```  
 - `history`
  
 - `pwd` 
