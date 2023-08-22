@@ -210,6 +210,8 @@ fi
 for i in {1.100}; do echo $1; done
 ```
 
+---
+## Trap & Kill
 
 - `trap "echo don’t use the Ctrl+c" SIGINT^C` 
 
