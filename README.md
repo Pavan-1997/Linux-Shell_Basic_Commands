@@ -37,9 +37,9 @@
    
   bash is commonly used 
    
-  Earlier there was a link between #!/bin/sh to #!/bin/bash 
+  Earlier there was a soft link between #!/bin/sh to #!/bin/bash 
    
-  Now in ubuntu there is a link between #!/bin/sh to #!/bin/dash 
+  Now in ubuntu there is a soft link between #!/bin/sh to #!/bin/dash 
   
 - `cat` 
   
