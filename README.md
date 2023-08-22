@@ -17,6 +17,9 @@
    (Manual of Linux)
  
 - `vim`
+  
+  `vi`
+  (By default available)
  
 - `#!/bin/bash`
   
