@@ -96,7 +96,7 @@
  
 - `mkdir`
 
-  (Create a new directory
+  (Create a new directory)
 
   
 - `nproc`
