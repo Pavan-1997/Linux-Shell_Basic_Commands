@@ -9,7 +9,7 @@
   (Create empty files or update file timestamps.Mostly used in Automations)
 
  
-- `ls`
+- `ls` 
   
   (List files or List directory contents)
 
