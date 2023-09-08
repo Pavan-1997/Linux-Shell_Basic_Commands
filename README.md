@@ -10,7 +10,7 @@
  
  
 - `ls` 
-  
+   
   (List files or List directory contents)
 
  
