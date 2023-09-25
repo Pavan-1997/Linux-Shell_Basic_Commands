@@ -35,7 +35,7 @@
  
 - `#!/bin/bash`
   ```
-  #! - Shebag 
+  #! - Shebang 
   
   Where bash, dash, ksh and sh are called executables 
    
