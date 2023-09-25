@@ -6,7 +6,7 @@
   
 - `touch `  
     
-  (Create empty files or update file timestamps.Mostly used in Automations)
+  (Create empty files or update file timestamps.  Primarily used in Automation)
   
  
 - `ls`   
