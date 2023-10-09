@@ -27,7 +27,10 @@
 - `vim`
   
   (Command-line text editor in Linux used for editing files)
-  
+
+  ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/d0e08eb3-fe25-4508-b97d-07f03aa8d466)
+
+
   `vi`
   
   (Editing files, By default available in Linux)
@@ -59,7 +62,10 @@
   
 - `cat`
 
-  (Display the contents of a file in the terminal)
+  (Concatenate and display files on the terminal. It can also be used to modify existing ones)
+
+![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9953ee6b-9780-4605-867d-cba586cdc8b2)
+
 
   
 - `chmod`
@@ -98,7 +104,14 @@
 
   (Create a new directory)
 
+
+- `sort`
+  (Sort lines of text in a file or input stream alphabetically or numerically)
   
+  ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9bb5747f-a211-426c-821d-42da3e7ac81d)
+
+
+
 - `nproc`
   
   (Displays the number of available processing units (CPU cores)) 
