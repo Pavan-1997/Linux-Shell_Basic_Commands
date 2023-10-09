@@ -98,12 +98,17 @@
 
 
 - `chown`
-  (Change the file Owner or group)
+
+   (Change the file Owner or group)
   
 
 - `history`
 
   (Shows a list of previously executed commands in the terminal)
+
+ `history 10`
+
+ (Last 10 executed commands)
 
 
  - `lsof`
@@ -132,8 +137,23 @@
 
 
 - `tail`
-  (Prints the last N number of data of the given input. By default, it prints 10 lines)
 
+   (Prints the last N number of data of the given input. By default, it prints 10 lines)
+
+
+- `diff`
+
+  (Find the difference between two files, diff file1.txt file2.txt)
+
+
+- `nslookup`
+
+  (Checking DNS hostname to Ip or Ip to Hostname)
+
+
+- `tr`
+  (Translation. This command is for translating or deleting characters)
+  
 
 - `nproc`
   
@@ -149,12 +169,39 @@
 
   (Provides real-time system monitoring, displaying information about processes and system usage)
 
+
+- `htop`
+
+  (Monitor the system’s resources and processes that are running in real time)
+  
  
 - `df`
   
   (Displays information about disk space usage on file systems) 
 
+  `du`
+
+  (Displays size of directory tree including all the content)
+
+
+- `tnc`
+
+  (This is “Test Network Connection” command. Mostly used command while troubleshooting. It displays diagnostic information for a connection)
+
   
+- `apt-get`
+
+  (Install, update, and remove packages, as well as to manage the package repository sources)
+
+  ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/1af627dd-f213-442e-a23a-e9a492f8ee7b)
+
+
+- `ps`
+  (Check the unique id behind every process)
+
+ ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/0f6b6e10-3cff-47a9-af81-872939deb691)
+
+ 
 - `ps -ef` 
 
   (Lists all running processes in full format in Linux)  
@@ -217,6 +264,9 @@
 - `sudo find / -name pavan`
 
    (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
+
+![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/e3ad2319-bc07-4174-a56b-75be8bb3bf59)
+
 
  ---
  ### Loops:
