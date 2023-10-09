@@ -109,13 +109,14 @@
 
   (Shows a list of previously executed commands in the terminal)
 
- `history 10`
+  `history 10`
 
- (Last 10 executed commands)
+  (Last 10 executed commands)
 
 
  - `lsof`
-   (Display a list of all the open files on a Linux system)
+
+    (Display a list of all the open files on a Linux system)
 
    
 - `pwd`
@@ -134,6 +135,7 @@
 
 
 - `sort`
+
   (Sort lines of text in a file or input stream alphabetically or numerically)
   
   ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9bb5747f-a211-426c-821d-42da3e7ac81d)
