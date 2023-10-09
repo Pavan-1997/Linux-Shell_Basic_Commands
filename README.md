@@ -18,7 +18,19 @@
   
   (Lists the files with dates or lists files in long format sorted by time, with the latest files at the bottom)
 
- 
+
+ - `id`
+   (Find out user and group names and numeric ID’s (UID or group ID) of the current user or any other user in the server)
+
+
+- `cut`
+  (Extract specific fields or columns from a file or standard input)
+
+
+- `sed`
+  (Perform basic text transformations on an input file. It stands for "stream editor" and is a powerful tool for editing text files or streams in a Linux environment)
+
+  
 -  `man ls`
 
    (Manual for Linux)
