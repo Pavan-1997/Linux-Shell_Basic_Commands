@@ -85,11 +85,19 @@
 ```
 
 
+- `chown`
+  (Change the file Owner or group)
+  
+
 - `history`
 
   (Shows a list of previously executed commands in the terminal)
 
- 
+
+ - `lsof`
+   (Display a list of all the open files on a Linux system)
+
+   
 - `pwd`
 
   (Displays the current working directory (path))
@@ -110,6 +118,9 @@
   
   ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9bb5747f-a211-426c-821d-42da3e7ac81d)
 
+
+- `tail`
+  (Prints the last N number of data of the given input. By default, it prints 10 lines)
 
 
 - `nproc`
