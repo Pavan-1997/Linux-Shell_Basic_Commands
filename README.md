@@ -153,7 +153,12 @@
 
   (Unix name)
 
+
+- `clear`
+
+  (Clears the screen)
   
+
 - `sort`
 
   (Sort lines of text in a file or input stream alphabetically or numerically)
