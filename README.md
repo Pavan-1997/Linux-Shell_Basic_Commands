@@ -149,6 +149,11 @@
   (Shows the elapsed time duration since the machine logged in)
 
 
+- `uname`
+
+  (Unix name)
+
+  
 - `sort`
 
   (Sort lines of text in a file or input stream alphabetically or numerically)
