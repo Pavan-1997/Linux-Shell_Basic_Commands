@@ -144,7 +144,9 @@
    (Shows the currently logged-in username of the terminal)
 
 
-- uptime - shows the elapsed time duration since the machine logged in.
+- `uptime`
+
+  (Shows the elapsed time duration since the machine logged in)
 
 
 - `sort`
