@@ -139,6 +139,11 @@
    (Shows the host id of the system assigned by the OS)
 
 
+- `whoami`
+
+   (Shows the currently logged-in username of the terminal)
+ 
+
 - `sort`
 
   (Sort lines of text in a file or input stream alphabetically or numerically)
