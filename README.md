@@ -134,7 +134,10 @@
   (Create a new directory)
 
  
-- `hostid` shows the host id of the system assigned by the OS.
+- `hostid`
+
+   (Shows the host id of the system assigned by the OS)
+
 
 - `sort`
 
