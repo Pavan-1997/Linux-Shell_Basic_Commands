@@ -159,6 +159,7 @@
 
 
 - `tr`
+  
   (Translation. This command is for translating or deleting characters)
   
 
