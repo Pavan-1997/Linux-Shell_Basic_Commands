@@ -183,7 +183,8 @@
 
 - `dig <Domain-Name>
 
-  (
+  (Shows DNS information of the domain)
+
 
 - `tr`
   
