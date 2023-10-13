@@ -260,7 +260,12 @@
  
 - `set -x` 
 
-  (In debug mode) 
+  (In debug mode)
+
+
+- pwd
+
+  (Show present working directory)
 
 
 - `date`
