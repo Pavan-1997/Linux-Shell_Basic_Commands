@@ -181,6 +181,10 @@
   (Checking DNS hostname to Ip or Ip to Hostname)
 
 
+- `dig <Domain-Name>
+
+  (
+
 - `tr`
   
   (Translation. This command is for translating or deleting characters)
