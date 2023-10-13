@@ -29,6 +29,11 @@
    (Extract specific fields or columns from a file or standard input)
 
 
+- `printenv`
+
+  (Displays all the enviroment variables of the OS)
+  
+
 - `sed`
 
    (Perform basic text transformations on an input file. It stands for "stream editor" and is a powerful tool for editing text files or streams in a Linux environment)
