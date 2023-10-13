@@ -129,6 +129,11 @@
   (Displays the current working directory (path))
 
 
+- `last`
+
+  (Shows the previous logins in the OS)
+
+  
 - `cd`
 
   (Change the current working directory)
