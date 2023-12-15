@@ -153,6 +153,11 @@
 
   (Create a new directory)
 
+
+- `rm`
+
+  (Remove (delete) files or directories)
+
  
 - `hostid`
 
