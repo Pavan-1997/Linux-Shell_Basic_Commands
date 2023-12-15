@@ -163,7 +163,12 @@
 
   (Removes directories and their contents recursively)
 
- 
+
+ - `rmdir`
+
+  (Removes empty directories)
+
+
 - `hostid`
 
    (Shows the host id of the system assigned by the OS)
