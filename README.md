@@ -143,7 +143,12 @@
 
   (Change the current working directory)
 
- 
+
+ - `cd ..`
+
+  (Navigates to the parent directory)
+
+  
 - `mkdir`
 
   (Create a new directory)
