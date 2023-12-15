@@ -158,6 +158,11 @@
 
   (Remove (delete) files or directories)
 
+  
+- `rm -r`
+
+  (Removes directories and their contents recursively)
+
  
 - `hostid`
 
