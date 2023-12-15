@@ -15,6 +15,7 @@
 
 
 - `ls -l`
+  
   (Lists files and directories in a detailed, long format, displaying information such as permissions, owner, group, size, and modification date)
 
  
