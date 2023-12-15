@@ -253,6 +253,7 @@
 
 
 - `ps`
+  
   (Check the unique id behind every process)
 
  ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/0f6b6e10-3cff-47a9-af81-872939deb691)
