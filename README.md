@@ -320,7 +320,12 @@
 
   (Shows the system's memory usage and available memory)
 
-  
+
+- `free -h` 
+
+  (Displays the system's memory usage in a human-readable format)
+
+
 - `top` 
 
   (Provides real-time system monitoring, displaying information about processes and system usage)
