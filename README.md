@@ -40,9 +40,14 @@
    (Extract specific fields or columns from a file or standard input)
 
 
+- `cut -b 1 myfile.txt`
+  
+   (Extracts and displays the first byte (character) of each line in the file "myfile.txt") 
+
+
 - `printenv`
 
-  (Displays all the enviroment variables of the OS)
+   (Displays all the enviroment variables of the OS)
   
 
 - `sed`
