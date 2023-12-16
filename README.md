@@ -236,6 +236,13 @@
   (Displays the last 5 lines of the file "demo.txt")
 
 
+- less demo.txt
+opens the file "demo.txt" in a pager, allowing you to view its content interactively with scrolling and search capabilities
+
+
+more demo.txt
+ displays the content of the file "demo.txt" one screen at a time, allowing you to navigate through the content using the spacebar
+
 - `diff`
 
   (Find the difference between two files, diff file1.txt file2.txt)
