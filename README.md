@@ -95,8 +95,12 @@
 
   (Concatenate and display files on the terminal. It can also be used to modify existing ones)
 
-![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9953ee6b-9780-4605-867d-cba586cdc8b2)
 
+- `zcat`
+
+   (Displays the contents of compressed files (gzip))
+
+![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9953ee6b-9780-4605-867d-cba586cdc8b2)
 
   
 - `chmod`
