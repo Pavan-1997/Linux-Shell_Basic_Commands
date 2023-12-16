@@ -18,7 +18,7 @@
 
 - `echo "hello" | tee hello.txt`
   
-   (Linux prints "hello" to the console and simultaneously writes it to the file "hello.txt")
+  (Linux prints "hello" to the console and simultaneously writes it to the file "hello.txt")
 
 
 - `ls`   
@@ -38,27 +38,27 @@
 
  - `id`
 
-    (Find out user and group names and numeric ID’s (UID or group ID) of the current user or any other user in the server)
+   (Find out user and group names and numeric ID’s (UID or group ID) of the current user or any other user in the server)
 
 
 - `cut`
 
-   (Extract specific fields or columns from a file or standard input)
+  (Extract specific fields or columns from a file or standard input)
 
 
 - `cut -b 1 myfile.txt`
   
-   (Extracts and displays the first byte (character) of each line in the file "myfile.txt") 
+  (Extracts and displays the first byte (character) of each line in the file "myfile.txt") 
 
 
 - `printenv`
 
-   (Displays all the enviroment variables of the OS)
+  (Displays all the enviroment variables of the OS)
   
 
 - `sed`
 
-   (Perform basic text transformations on an input file. It stands for "stream editor" and is a powerful tool for editing text files or streams in a Linux environment)
+  (Perform basic text transformations on an input file. It stands for "stream editor" and is a powerful tool for editing text files or streams in a Linux environment)
 
   
 -  `man ls`
@@ -94,12 +94,12 @@
 
 - `echo "Test"`
   
-    (Print message or display text or variables in the terminal)
+  (Print message or display text or variables in the terminal)
 
 
--  `sh script.sh` or `./script.sh`
+- `sh script.sh` or `./script.sh`
 
-    (To execute the script shell file)
+  (To execute the script shell file)
 
   
 - `cat`
@@ -109,7 +109,7 @@
 
 - `zcat`
 
-   (Displays the contents of compressed files (gzip))
+  (Displays the contents of compressed files (gzip))
 
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9953ee6b-9780-4605-867d-cba586cdc8b2)
 
@@ -138,14 +138,15 @@
 
 - `chown`
 
-   (Change the file Owner or group)
+  (Change the file Owner or group)
   
 
 - `history`
 
   (Shows a list of previously executed commands in the terminal)
 
-  `history 10`
+
+- `history 10`
 
   (Last 10 executed commands)
 
@@ -192,22 +193,22 @@
 
  - `rmdir`
 
-    (Removes empty directories)
+   (Removes empty directories)
 
 
 - `hostid`
 
-   (Shows the host id of the system assigned by the OS)
+  (Shows the host id of the system assigned by the OS)
 
 
 - `whoami`
 
-   (Shows the currently logged-in username of the terminal)
+  (Shows the currently logged-in username of the terminal)
 
 
 - `uptime`
 
-   (Shows the elapsed time duration since the machine logged in)
+  (Shows the elapsed time duration since the machine logged in)
 
 
 - `uname`
@@ -229,12 +230,12 @@
 
 - `head demo.txt`
 
-   (Displays the first 10 lines of the file "demo.txt")
+  (Displays the first 10 lines of the file "demo.txt")
 
 
 - `head -n 5 demo.txt`
    
-   (Displays the first 5 lines of the file "demo.txt")
+  (Displays the first 5 lines of the file "demo.txt")
 
 
 - `tail demo.txt`
@@ -264,22 +265,22 @@
 
 - `cp demo.txt test/`
 
-   (Copies the file "demo.txt" to the "test" directory)
+  (Copies the file "demo.txt" to the "test" directory)
 
 
 - `cp -r cloud/ devops/`
 
-   (Recursively copies the contents of the "cloud" directory into the "devops" directory)
+  (Recursively copies the contents of the "cloud" directory into the "devops" directory)
 
 
 - `mv demo.txt ../test/`
 
-   (Moves the file "demo.txt" to the parent directory's "test" directory
+  (Moves the file "demo.txt" to the parent directory's "test" directory
 
 
 - `mv devops/ linux_for_devops`
 
-   (Renames the "devops" directory to "linux_for_devops")
+  (Renames the "devops" directory to "linux_for_devops")
 
 
 - `diff`
@@ -289,14 +290,14 @@
 
 - `ln -s /home/ubuntu/linux_for_devops/cloud/devops-file.txt softlink-file`
 
-   (Creates a symbolic link named "softlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
+  (Creates a symbolic link named "softlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
 
 `Softlink -  a file that points to another file or directory using a pathname, if original file is changed/deleted than the softlink file is also changed/deleted`
 
 
 - `ln /home/ubuntu/linux_for_devops/cloud/devops-file.txt hardlink-file`
 
-   (Creates a symbolic link named "hardlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
+  (Creates a symbolic link named "hardlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
   
 `Hardlink - a file that points to another file or directory using a pathname, if original file is  deleted than the hardlink file is not deleted`
 
@@ -345,7 +346,8 @@
   
   (Displays information about disk space usage on file systems) 
 
-  `du`
+
+- `du`
 
   (Displays size of directory tree including all the content)
 
@@ -394,7 +396,7 @@
   (In debug mode)
 
 
-- pwd
+- `pwd`
 
   (Show present working directory)
 
@@ -435,7 +437,7 @@
  
 - `sudo find / -name pavan`
 
-   (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
+  (Searches the entire filesystem for files or directories named "pavan," with elevated privileges using "sudo" to access restricted areas)
 
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/e3ad2319-bc07-4174-a56b-75be8bb3bf59)
 
