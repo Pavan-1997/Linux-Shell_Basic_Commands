@@ -430,7 +430,7 @@
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/e3ad2319-bc07-4174-a56b-75be8bb3bf59)
 
 
-`SSH Keys - Public Key (Server should have this ) & Private Key (Host should have this)`
+`SSH Keys - Public Key (Server should have this) & Private Key (Host should have this)`
 
 
  ---
