@@ -113,6 +113,11 @@
 
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9953ee6b-9780-4605-867d-cba586cdc8b2)
 
+
+- `fuser`
+
+  (Identify processes using a file or a socket)
+
   
 - `chmod`
   
