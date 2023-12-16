@@ -440,6 +440,21 @@
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/e3ad2319-bc07-4174-a56b-75be8bb3bf59)
 
 
+- `nohup free -h`
+  
+  (This runs the free -h command in the background with nohup, allowing it to continue running even if the terminal is closed, and the output is redirected to a file named nohup.out. The & at the end runs the command in the background)
+
+
+- `vmstat`
+  
+  (Provides virtual memory statistics, including information about processes, memory, paging, block IO, traps, and CPU activity)
+
+
+- `vmstat -a`
+
+  (Displays detailed information about virtual memory statistics, including active and inactive memory, page faults, and other related metrics)
+
+  
 `SSH Keys - Public Key (Server should have this) & Private Key (Host should have this)`
 
 
