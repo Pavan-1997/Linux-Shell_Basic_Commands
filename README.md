@@ -7,8 +7,14 @@
 - `touch `   
     
   (Create empty files or update file timestamps.  Primarily used in Automation)
+
+
+- `echo "Hello world" > demo.txt`
+
+  `cat demo.txt`
+
+  (Creates a file named "demo.txt" and output redirects the text "Hello world" into it. The second command cat demo.txt displays the contents of the file "demo.txt)
   
- 
 - `ls`   
    
   (List files or List directory contents)
