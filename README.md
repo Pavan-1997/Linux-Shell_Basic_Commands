@@ -271,6 +271,20 @@
   (Find the difference between two files, diff file1.txt file2.txt)
 
 
+- `ln -s /home/ubuntu/linux_for_devops/cloud/devops-file.txt softlink-file`
+
+   (Creates a symbolic link named "softlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
+
+`Softlink -  a file that points to another file or directory using a pathname, if original file is changed/deleted than the softlink file is also changed/deleted`
+
+
+- `ln /home/ubuntu/linux_for_devops/cloud/devops-file.txt hardlink-file`
+
+   (Creates a symbolic link named "hardlink-file" that points to the file "/home/ubuntu/linux_for_devops/cloud/devops-file.txt")
+  
+`Hardlink - a file that points to another file or directory using a pathname, if original file is  deleted than the hardlink file is not deleted`
+
+
 - `nslookup`
 
   (Checking DNS hostname to Ip or Ip to Hostname)
