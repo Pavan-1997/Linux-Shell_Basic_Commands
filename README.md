@@ -211,9 +211,29 @@
   ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/9bb5747f-a211-426c-821d-42da3e7ac81d)
 
 
-- `tail`
+- `head demo.txt`
 
-   (Prints the last N number of data of the given input. By default, it prints 10 lines)
+   (Displays the first 10 lines of the file "demo.txt")
+
+
+- `head -n 5 demo.txt`
+   
+   (Displays the first 5 lines of the file "demo.txt")
+
+
+- `tail demo.txt`
+
+  (Displays the last 10 lines of the file "demo.txt")
+
+
+- `tail -f demo.txt`
+  
+  (Last 10 lines of the file "demo.txt" and continues to actively show new lines as they are appended to the file in real-time (follow mode))
+
+
+- `tail -n 5 demo.txt`
+
+  (Displays the last 5 lines of the file "demo.txt")
 
 
 - `diff`
