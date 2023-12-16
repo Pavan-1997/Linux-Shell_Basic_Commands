@@ -73,7 +73,7 @@
   ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/d0e08eb3-fe25-4508-b97d-07f03aa8d466)
 
 
-  `vi`
+- `vi`
   
   (Editing files, By default available in Linux)
 
