@@ -173,7 +173,7 @@
 
  - `cd ..`
 
-    (Navigates to the parent directory)
+   (Navigates to the parent directory)
 
   
 - `mkdir`
