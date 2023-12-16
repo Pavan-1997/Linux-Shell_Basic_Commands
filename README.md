@@ -245,6 +245,22 @@
 
   (Displays the content of the file "demo.txt" one screen at a time, allowing you to navigate through the content using the spacebar)
 
+cp demo.txt test/
+copies the file "demo.txt" to the "test" directory
+
+
+cp -r cloud/ devops/
+recursively copies the contents of the "cloud" directory into the "devops" directory
+
+
+mv demo.txt ../test/
+moves the file "demo.txt" to the parent directory's "test" directory
+
+
+mv devops/ linux_for_devops
+renames the "devops" directory to "linux_for_devops"
+
+
 
 - `diff`
 
