@@ -14,7 +14,13 @@
   `cat demo.txt`
 
   (Creates a file named "demo.txt" and output redirects the text "Hello world" into it. The second command cat demo.txt displays the contents of the file "demo.txt)
+
+
+- `echo "hello" | tee hello.txt`
   
+   (Linux prints "hello" to the console and simultaneously writes it to the file "hello.txt")
+
+
 - `ls`   
    
   (List files or List directory contents)
