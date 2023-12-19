@@ -213,7 +213,7 @@
 
 - `uname`
 
-  (Unix name)
+   (This command will output the system name, such as "Linux" for a Linux-based system)
 
 
 - `clear`
