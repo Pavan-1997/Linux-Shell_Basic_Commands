@@ -365,7 +365,20 @@
 
   (This is “Test Network Connection” command. Mostly used command while troubleshooting. It displays diagnostic information for a connection)
 
-  
+
+```
+apt - Package management on Debian and Ubuntu-based Linux systems
+
+yum - Package management on Red Hat-based Linux systems, such as CentOS and Fedora
+
+dnf - Package management on Red Hat-based Linux systems, such as Fedora and RHEL 8 and newer versions
+
+pacman - Package management on Arch Linux and Arch-based distributions
+
+portage - Portage package management system on Gentoo Linux
+```
+
+
 - `apt-get`
 
   (Install, update, and remove packages, as well as to manage the package repository sources)
