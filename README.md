@@ -200,6 +200,9 @@
 
   (Shows the host id of the system assigned by the OS)
 
+- `who`
+  (It will show a list of users, their terminal sessions, login times, and originating IP addresses or terminal locations)
+
 
 - `whoami`
 
