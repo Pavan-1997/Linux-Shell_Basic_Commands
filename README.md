@@ -201,6 +201,7 @@
   (Shows the host id of the system assigned by the OS)
 
 - `who`
+  
   (It will show a list of users, their terminal sessions, login times, and originating IP addresses or terminal locations)
 
 
@@ -208,6 +209,11 @@
 
   (Shows the currently logged-in username of the terminal)
 
+
+- `which <command_name>`
+
+  (Replace command_name with the actual command you want to check, and the command will display the full path to the executable file associated with that command)
+  
 
 - `uptime`
 
