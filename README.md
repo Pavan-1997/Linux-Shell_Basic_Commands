@@ -208,7 +208,7 @@
 
 - `uptime`
 
-  (Shows the elapsed time duration since the machine logged in)
+  (This command will display information such as the current time, how long the system has been running, the number of users currently logged in, and the system load averages for the last 1, 5, and 15 minutes)
 
 
 - `uname`
