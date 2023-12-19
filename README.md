@@ -438,6 +438,11 @@
 
   (Download files from the internet using various protocols, such as HTTP, HTTPS, and FTP or Using the above we can't view the info but downloads the file)  
 
+
+- `sudo <your_command>`
+
+   (Replace [your_command] with the actual command you want to run with superuser privileges. sudo allows authorized users to perform administrative tasks on Linux systems)
+  
    
 - `sudo su -`  
 
