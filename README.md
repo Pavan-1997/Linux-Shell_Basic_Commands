@@ -469,6 +469,56 @@ portage - Portage package management system on Gentoo Linux
 ![image](https://github.com/Pavan-1997/Linux-Shell_Basic_Commands/assets/32020205/e3ad2319-bc07-4174-a56b-75be8bb3bf59)
 
 
+- `cat /etc/passwd`
+
+   (Contains information about user accounts on the system)
+  
+
+- `useradd -m test`
+
+  (Home directory is created for the user test as /home/test)
+
+  
+- `sudo passwd test`
+
+   (Allows you to set a password for the user account named "test")
+
+
+- `exit`
+
+   (Exit the current shell or close the current terminal session)
+
+
+- `userdel test`
+
+   (Removes the user account named "test")
+
+  
+- `groupadd testgroup`
+
+   (New group named "testgroup" created on the system)
+
+  
+- `gpasswd -a test testgroup`
+  
+   (Adds the user "test" to the group "testgroup")
+
+
+- `gpasswd -m test1,test2,test3 testgroup`
+  
+   (adds the users "test1," "test2," and "test3" to the group "testgroup")
+
+
+- `groupdel testgroup`
+
+  (Deletes the group named "testgroup")
+
+
+- `cat /etc/group`
+
+   (Contains information about user groups on the system)
+  
+
 - `nohup free -h`
   
   (This runs the free -h command in the background with nohup, allowing it to continue running even if the terminal is closed, and the output is redirected to a file named nohup.out. The & at the end runs the command in the background)
