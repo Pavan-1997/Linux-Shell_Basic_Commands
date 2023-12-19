@@ -1,6 +1,6 @@
 # Linux-Shell Basic Commands                       
         
-### Below are the commands that are documented by me and will be updating.  
+### Below are the commands that are documented by me and will be updating.   
        
 ---     
      
