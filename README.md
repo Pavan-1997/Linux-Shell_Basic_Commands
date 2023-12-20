@@ -136,11 +136,66 @@
 ```
 
 
-- `chown`
+- `umask`
 
-  (Change the file Owner or group)
+   (Displays the current user file creation mask, which determines the default permissions assigned to newly created files and directories)
+
+
+- `cat ~/.bashrc`
   
+   (This is the script file that is executed whenever a new terminal session is started for the user)
 
+
+- `chown pavan test.txt`
+
+  (Changes the owner of the file "test.txt" to the user "pavan")
+
+  
+- `chgrp test test.txt`
+
+   (Changes the group ownership of the file "test.txt" to the group "test")
+
+
+- `zip -r lfd.zip test1/`
+
+   (Recursively compresses the contents of the "test1" directory into a ZIP file named "lfd.zip")
+
+
+- `unzip lfd.zip`
+  
+   (Extracts the contents of the "lfd.zip" file into the current directory)
+
+
+- `gzip` & `gunzip`
+
+  (This command creates a compressed file with the extension .gz) & (This decompress files that have been compressed with the gzip compression tool)
+
+
+- `tar -cvzf test.tar.gz test1`
+
+  (Creates a compressed tarball (.tar.gz) named "test.tar.gz" containing the contents of the "test1" directory)
+
+  
+- `tar -xvzf test.tar.gz`
+  
+   (Command extracts the contents of the compressed tarball "test.tar.gz" into the current directory)
+
+
+- `scp -i <Private-Key-Path> <Source-Location> <DestinationIP>:<Destination-Location>`
+
+  (This command securely copies the local file "file.txt" to the specified location on the remote server using the provided private key)
+
+
+- `scp -i <Private-Key-Path> -r <Source-Location> <DestinationIP>:<Destination-Location> .`
+
+  (This command securely copies the local directory and its contents to the specified location on the remote server using the provided private key. The trailing "." at the end of the command denotes the current directory as the destination on the local machine)
+
+
+- `rsync -e "ssh -i <Private-Key-Path>" -avz <Local-Folder-Location> <DestinationIP>:<Destination-Location>`
+
+  (This command uses rsync to synchronize the local folder with the specified folder on the remote server over SSH with the provided private key)
+
+  
 - `history`
 
   (Shows a list of previously executed commands in the terminal)
