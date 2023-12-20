@@ -3,7 +3,7 @@
 ### Below are the commands that are documented by me and will be updating.     
        
 ---             
-         
+          
 - `touch`         
       
   (Create empty files or update file timestamps.  Primarily used in Automation)
