@@ -663,7 +663,10 @@ for i in {1.100}; do echo $1; done
   (This command displays the current hostname of the system)
 
   
+- `ip`
 
+  (This command displays information about network interfaces, IP addresses, and routing on the system. It is a versatile tool that provides various networking-related functionalities)
+  
 
 
 
