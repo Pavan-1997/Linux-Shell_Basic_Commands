@@ -627,5 +627,10 @@ for i in {1.100}; do echo $1; done
 
   (Pass a kill signal to Linux to terminate 1111 process ID)
 
+---
+
+- `ping example.com`
+
+   (Replace "example.com" with the domain or IP address you want to ping. This command sends ICMP Echo Request packets to the specified host, measuring the round-trip time for messages to travel from the source to the destination and back)
 
   
