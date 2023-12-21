@@ -668,6 +668,52 @@ for i in {1.100}; do echo $1; done
   (This command displays information about network interfaces, IP addresses, and routing on the system. It is a versatile tool that provides various networking-related functionalities)
   
 
+- `iwconfig`
+
+  (This command displays information about wireless network interfaces, including details about the current wireless connection, signal strength, and other wireless-specific parameters)
 
 
+- `ss`
+
+  (This command provides socket statistics, displaying information about active network connections, listening ports, and more. It is a modern replacement for the older netstat command)
+
+
+- `arp`
+
+  (This command displays the current Address Resolution Protocol (ARP) cache, showing the mapping between IP addresses and corresponding hardware (MAC) addresses on the local network)
+
+
+- `nc options host port`
+
+  (Replace options with any additional options you want to use, host with the target host or IP address, and port with the target port. Netcat is a versatile networking utility that can be used for various purposes, including connecting to remote servers, port scanning, and transferring data)
+
+
+- `whois domain_name`
+
+  (Replace domain_name with the specific domain you want to look up. The whois command is used to retrieve information about domain registrations, including details about the domain registrar, registration status, and contact information for the domain owner)
+
+
+- `ifplugstatus interface_name`
+
+  (Replace interface_name with the name of the network interface you want to check. This command is used to check the link status (whether a cable is plugged in or not) for the specified network interface)
+
+
+- `route`
+
+  (This command displays the kernel routing table, showing the current network routing information. It includes information about destination networks, gateways, netmasks, and interface associations. Note that the route command is deprecated, and the ip route command is recommended for modern systems)
+
+
+- `iproute`
+
+  (This command displays the kernel routing table, showing information about the routes and how network traffic is directed. It provides details such as destination networks, gateways, and interface associations)
+
+
+- `nmap target_host`
+
+  (Replace target_host with the IP address or hostname of the target you want to scan. The nmap command is a powerful network scanning tool used for discovering hosts and services on a computer network, creating a map of the network. Depending on your permissions and the target's security settings, you might need elevated privileges (using sudo) for certain types of scans)
+
+
+- `watch [options] command`
+
+  (Replace [options] with any specific options you want to use and command with the command you want to watch. The watch command repeatedly runs the specified command at a regular interval, displaying the output on the terminal)
 
