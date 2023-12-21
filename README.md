@@ -658,3 +658,13 @@ for i in {1.100}; do echo $1; done
   (Replace "example.com" with the domain name you want to query. The dig command is used for querying DNS servers to retrieve information about domain names, including IP addresses, name servers, and other DNS records)
 
 
+- `hostname`
+
+  (This command displays the current hostname of the system)
+
+  
+
+
+
+
+
