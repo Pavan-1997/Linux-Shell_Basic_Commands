@@ -633,4 +633,24 @@ for i in {1.100}; do echo $1; done
 
    (Replace "example.com" with the domain or IP address you want to ping. This command sends ICMP Echo Request packets to the specified host, measuring the round-trip time for messages to travel from the source to the destination and back)
 
-  
+
+- `netstat`
+
+  (This command displays network-related information such as open connections, listening ports, routing tables, and more)
+
+
+- `ifconfig`
+
+  (This command displays information about network interfaces, including IP addresses, MAC addresses, and other network-related details)
+
+- `traceroute example.com`
+
+  (Replace "example.com" with the domain or IP address you want to trace the route to. This command provides a hop-by-hop analysis of the path that packets take to reach the destination, showing the IP address and response time of each intermediate router or server)
+
+
+- `tracepath example.com`
+
+  (Replace "example.com" with the domain or IP address you want to trace the path to. tracepath is similar to traceroute and provides information about the network path to the destination, showing the IP addresses and round-trip times for each hop)
+
+
+
