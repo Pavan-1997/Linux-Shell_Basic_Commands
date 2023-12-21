@@ -366,16 +366,6 @@
 `Hardlink - a file that points to another file or directory using a pathname, if original file is  deleted than the hardlink file is not deleted`
 
 
-- `nslookup`
-
-  (Checking DNS hostname to Ip or Ip to Hostname)
-
-
-- `dig <Domain-Name>
-
-  (Shows DNS information of the domain)
-
-
 - `tr`
   
   (Translation. This command is for translating or deleting characters)
@@ -652,5 +642,19 @@ for i in {1.100}; do echo $1; done
 
   (Replace "example.com" with the domain or IP address you want to trace the path to. tracepath is similar to traceroute and provides information about the network path to the destination, showing the IP addresses and round-trip times for each hop)
 
+
+- `mtr example.com`
+
+  (Replace "example.com" with the domain or IP address you want to investigate. mtr is a network diagnostic tool that combines the functionality of ping and traceroute. It continuously pings the target and provides a live, updating display of the round-trip times and packet loss for each hop in the network path)
+
+
+- `nslookup example.com`
+
+  (Replace "example.com" with the domain name or IP address you want to look up. nslookup is a command-line tool for querying DNS (Domain Name System) servers to obtain information about domain names and IP addresses)
+
+
+- `dig example.com`
+
+  (Replace "example.com" with the domain name you want to query. The dig command is used for querying DNS servers to retrieve information about domain names, including IP addresses, name servers, and other DNS records)
 
 
