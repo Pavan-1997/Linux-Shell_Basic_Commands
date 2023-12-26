@@ -717,3 +717,8 @@ for i in {1.100}; do echo $1; done
 
   (Replace [options] with any specific options you want to use and command with the command you want to watch. The watch command repeatedly runs the specified command at a regular interval, displaying the output on the terminal)
 
+
+---
+
+
+- 
