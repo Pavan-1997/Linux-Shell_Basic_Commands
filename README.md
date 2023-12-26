@@ -740,4 +740,12 @@ for i in {1.100}; do echo $1; done
 
   (This command uses awk to search for lines containing the string "INFO" in the file "app.log" and increment a counter (count) for each matching line. In the END block, it prints the total count of lines containing "INFO" in the file)
 
-- 
+
+- `awk '/INFO/ {count++} END {print "The count of INFO is",count}' app.log`
+
+  (This command uses awk to search for lines containing the string "INFO" in the file "app.log" and increment a counter (count) for each matching line. In the END block, it prints a message along with the total count of lines containing "INFO" in the file)
+
+
+- `awk '$2 >= "08:53:00" && $2 <= "08:53:59" {print $2,$3,$4}' app.log`
+
+  (This command uses awk to filter lines in the file "app.log" based on a timestamp condition (between "08:53:00" and "08:53:59") and prints the second, third, and fourth fields of each matching line)
