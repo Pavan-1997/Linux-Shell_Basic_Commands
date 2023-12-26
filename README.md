@@ -729,3 +729,15 @@ for i in {1.100}; do echo $1; done
 - `awk '/INFO/ {print $1,$2,$4}' app.log`
 
   (This command uses awk to search for lines containing the string "INFO" in the file "app.log" and prints the first, second, and fourth fields of each matching line)
+
+
+- `awk '/INFO/ {print $1,$2,$4}' app.log > info_only.log`
+
+  (This command uses awk to search for lines containing the string "INFO" in the file "app.log" and prints the first, second, and fourth fields of each matching line. The output is then redirected to a file named "info_only.log")
+
+
+- `awk '/INFO/ {count++} END {print count}' app.log`
+
+  (This command uses awk to search for lines containing the string "INFO" in the file "app.log" and increment a counter (count) for each matching line. In the END block, it prints the total count of lines containing "INFO" in the file)
+
+- 
