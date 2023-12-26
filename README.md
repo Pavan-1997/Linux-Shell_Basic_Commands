@@ -754,3 +754,8 @@ for i in {1.100}; do echo $1; done
 - `awk 'NR >=2 && NR <=10 {print}' app.log`
 
   (This command uses awk to print lines from the file "app.log" where the line number (NR) is between 2 and 10, inclusive)
+
+
+- `awk 'NR >=2 && NR <=10 {print NR}' app.log`
+
+  (This command uses awk to print the line numbers (NR) for lines in the file "app.log" where the line number is between 2 and 10, inclusive)
