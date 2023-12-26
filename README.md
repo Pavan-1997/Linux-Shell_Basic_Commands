@@ -721,4 +721,7 @@ for i in {1.100}; do echo $1; done
 ---
 
 
-- 
+- `awk '{print $1,$2,$4}' app.log`
+
+  (This command uses awk to print the first, second, and fourth fields (columns) of each line in the file "app.log." The fields are determined by whitespace (spaces or tabs) as the default field separator)
+
