@@ -749,3 +749,8 @@ for i in {1.100}; do echo $1; done
 - `awk '$2 >= "08:53:00" && $2 <= "08:53:59" {print $2,$3,$4}' app.log`
 
   (This command uses awk to filter lines in the file "app.log" based on a timestamp condition (between "08:53:00" and "08:53:59") and prints the second, third, and fourth fields of each matching line)
+
+
+- `awk 'NR >=2 && NR <=10 {print}' app.log`
+
+  (This command uses awk to print lines from the file "app.log" where the line number (NR) is between 2 and 10, inclusive)
