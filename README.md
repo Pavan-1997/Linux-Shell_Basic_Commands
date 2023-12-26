@@ -720,6 +720,7 @@ for i in {1.100}; do echo $1; done
 
 ---
 
+`AWK - Requires formatted data`
 
 - `awk '{print $1,$2,$4}' app.log`
 
