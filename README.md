@@ -797,33 +797,32 @@ for i in {1.100}; do echo $1; done
 
 
 
-The term "GREP" stands for "Global Regular Expression Print." It is a command-line utility in Unix and Unix-like operating systems for searching and matching patterns within files using regular expressions. The name is derived from the ed (editor) command `g/re/p`, which means globally search for a regular expression and print the lines that match.
+`The term "GREP" stands for "Global Regular Expression Print." It is a command-line utility in Unix and Unix-like operating systems for searching and matching patterns within files using regular expressions. The name is derived from the ed (editor) command `g/re/p`, which means globally search for a regular expression and print the lines that match`
 
 
-grep INFO app.log
+- `grep INFO app.log`
 
-This command searches for lines containing the string “INFO” in the file “app.log” and prints the matching lines.
-
-
-
-grep -i info app.log
-
-This command searches for lines containing the string “info” (case-insensitive) in the file “app.log” and prints the matching lines. The -i option makes the search case-insensitive.
+  (This command searches for lines containing the string “INFO” in the file “app.log” and prints the matching lines)
 
 
-grep -i -c info app.log
+- `grep -i info app.log`
 
-This command counts the number of lines containing the case-insensitive string “info” in the file “app.log” and prints the count. The -i option makes the search case-insensitive, and the -c option instructs grep to display the count of matching lines.
+  (This command searches for lines containing the string “info” (case-insensitive) in the file “app.log” and prints the matching lines. The -i option makes the search case-insensitive)
+
+  
+- `grep -i -c info app.log`
+
+  (This command counts the number of lines containing the case-insensitive string “info” in the file “app.log” and prints the count. The -i option makes the search case-insensitive, and the -c option instructs grep to display the count of matching lines)
 
 
+- `ps aux`
 
-ps aux
+  (This command displays a detailed list of currently running processes on the system, including information about the user, resource utilization, and other details)
 
-This command displays a detailed list of currently running processes on the system, including information about the user, resource utilization, and other details.
 
-ps aux | grep ubuntu
+- `ps aux | grep ubuntu`
 
-This command uses ps to list all running processes and then filters the output using grep to display only the lines containing the string “ubuntu.” It helps find processes associated with the “ubuntu” user or name.
+  (This command uses ps to list all running processes and then filters the output using grep to display only the lines containing the string “ubuntu.” It helps find processes associated with the “ubuntu” user or name)
 
 
 ps aux | grep ubuntu | awk '{print $2}'
