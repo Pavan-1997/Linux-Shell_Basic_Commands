@@ -781,21 +781,19 @@ for i in {1.100}; do echo $1; done
   (This command uses sed to print the line numbers for lines containing the string “INFO” in the file “app.log.”)
   
 
-sed -n -e '/INFO/=' -e '/INFO/p' app.log
+- `sed -n -e '/INFO/=' -e '/INFO/p' app.log`
 
-This command uses sed to print the line numbers and content of lines containing the string “INFO” in the file “app.log.” The -n option suppresses the default output, /INFO/= prints line numbers, and /INFO/p prints the lines themselves.
-
-
-
-sed '1,10 s/INFO/LOG/g' app.log
-
-This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log” and prints the modified lines.
+  (This command uses sed to print the line numbers and content of lines containing the string “INFO” in the file “app.log.” The -n option suppresses the default output, /INFO/= prints line numbers, and /INFO/p prints the lines themselves)
 
 
+- `sed '1,10 s/INFO/LOG/g' app.log`
 
-sed '1,10 s/INFO/LOG/g; 1,10p; 11q' app.log
+  (This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log” and prints the modified lines)
 
-This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log,” prints those modified lines, and then quits after line 11.
+
+- `sed '1,10 s/INFO/LOG/g; 1,10p; 11q' app.log`
+
+  (This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log,” prints those modified lines, and then quits after line 11)
 
 
 
