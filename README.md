@@ -765,3 +765,71 @@ for i in {1.100}; do echo $1; done
   ---
 
   `SED - Stream Editor`
+
+- 'sed -n '/INFO/p' app.log'
+
+  This command uses sed to print lines from the file “app.log” that contain the string “INFO.” The -n option suppresses the default output, and /INFO/p instructs sed to print lines matching the pattern “INFO.”
+
+
+
+  sed 's/INFO/LOG/g' app.log
+
+  This command uses sed to globally substitute occurrences of “INFO” with “LOG” in each line of the file “app.log” and prints the modified lines.
+
+
+
+  sed -n -e '/INFO/=' app.log
+
+  
+This command uses sed to print the line numbers for lines containing the string “INFO” in the file “app.log.”
+
+sed -n -e '/INFO/=' -e '/INFO/p' app.log
+
+This command uses sed to print the line numbers and content of lines containing the string “INFO” in the file “app.log.” The -n option suppresses the default output, /INFO/= prints line numbers, and /INFO/p prints the lines themselves.
+
+
+
+sed '1,10 s/INFO/LOG/g' app.log
+
+This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log” and prints the modified lines.
+
+
+
+sed '1,10 s/INFO/LOG/g; 1,10p; 11q' app.log
+
+This command uses sed to perform the global substitution of “INFO” with “LOG” in lines 1 to 10 of the file “app.log,” prints those modified lines, and then quits after line 11.
+
+
+
+The term "GREP" stands for "Global Regular Expression Print." It is a command-line utility in Unix and Unix-like operating systems for searching and matching patterns within files using regular expressions. The name is derived from the ed (editor) command `g/re/p`, which means globally search for a regular expression and print the lines that match.
+
+
+grep INFO app.log
+
+This command searches for lines containing the string “INFO” in the file “app.log” and prints the matching lines.
+
+
+
+grep -i info app.log
+
+This command searches for lines containing the string “info” (case-insensitive) in the file “app.log” and prints the matching lines. The -i option makes the search case-insensitive.
+
+
+grep -i -c info app.log
+
+This command counts the number of lines containing the case-insensitive string “info” in the file “app.log” and prints the count. The -i option makes the search case-insensitive, and the -c option instructs grep to display the count of matching lines.
+
+
+
+ps aux
+
+This command displays a detailed list of currently running processes on the system, including information about the user, resource utilization, and other details.
+
+ps aux | grep ubuntu
+
+This command uses ps to list all running processes and then filters the output using grep to display only the lines containing the string “ubuntu.” It helps find processes associated with the “ubuntu” user or name.
+
+
+ps aux | grep ubuntu | awk '{print $2}'
+
+This command lists the process IDs (PIDs) of processes associated with the “ubuntu” user or name. It combines ps, grep, and awk to filter and extract specific information from the process list.
