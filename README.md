@@ -768,13 +768,12 @@ for i in {1.100}; do echo $1; done
 
 - 'sed -n '/INFO/p' app.log'
 
-  This command uses sed to print lines from the file “app.log” that contain the string “INFO.” The -n option suppresses the default output, and /INFO/p instructs sed to print lines matching the pattern “INFO.”
+  (This command uses sed to print lines from the file “app.log” that contain the string “INFO.” The -n option suppresses the default output, and /INFO/p instructs sed to print lines matching the pattern “INFO”)
 
 
+- `sed 's/INFO/LOG/g' app.log`
 
-  sed 's/INFO/LOG/g' app.log
-
-  This command uses sed to globally substitute occurrences of “INFO” with “LOG” in each line of the file “app.log” and prints the modified lines.
+  (This command uses sed to globally substitute occurrences of “INFO” with “LOG” in each line of the file “app.log” and prints the modified lines)
 
 
 
