@@ -825,6 +825,6 @@ for i in {1.100}; do echo $1; done
   (This command uses ps to list all running processes and then filters the output using grep to display only the lines containing the string “ubuntu.” It helps find processes associated with the “ubuntu” user or name)
 
 
-ps aux | grep ubuntu | awk '{print $2}'
+- `ps aux | grep ubuntu | awk '{print $2}'`
 
-This command lists the process IDs (PIDs) of processes associated with the “ubuntu” user or name. It combines ps, grep, and awk to filter and extract specific information from the process list.
+  (This command lists the process IDs (PIDs) of processes associated with the “ubuntu” user or name. It combines ps, grep, and awk to filter and extract specific information from the process list)
