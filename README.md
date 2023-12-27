@@ -776,11 +776,10 @@ for i in {1.100}; do echo $1; done
   (This command uses sed to globally substitute occurrences of “INFO” with “LOG” in each line of the file “app.log” and prints the modified lines)
 
 
+- `sed -n -e '/INFO/=' app.log`
 
-  sed -n -e '/INFO/=' app.log
-
+  (This command uses sed to print the line numbers for lines containing the string “INFO” in the file “app.log.”)
   
-This command uses sed to print the line numbers for lines containing the string “INFO” in the file “app.log.”
 
 sed -n -e '/INFO/=' -e '/INFO/p' app.log
 
