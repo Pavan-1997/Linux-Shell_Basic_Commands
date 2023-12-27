@@ -797,7 +797,7 @@ for i in {1.100}; do echo $1; done
 
 
 
-`The term "GREP" stands for "Global Regular Expression Print." It is a command-line utility in Unix and Unix-like operating systems for searching and matching patterns within files using regular expressions. The name is derived from the ed (editor) command `g/re/p`, which means globally search for a regular expression and print the lines that match`
+`GREP - Global Regular Expression Print. It is a command-line utility in Unix and Unix-like operating systems for searching and matching patterns within files using regular expressions. The name is derived from the ed (editor) command `g/re/p`, which means globally search for a regular expression and print the lines that match`
 
 
 - `grep INFO app.log`
